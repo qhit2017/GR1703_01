@@ -1,0 +1,9 @@
+数据类型		所占字节数
+Byte		1字节	 8位
+Short		2字节    16位
+int			4字节	 32位
+long		8字节     64位
+float		4字节	 32位
+double		8字节     64位
+char		2字节    16位
+boolean		1字节	 8位
