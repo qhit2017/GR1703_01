@@ -1,0 +1,38 @@
+1、请写出final、static的作用？
+	
+final： 最终
+	被final修饰的属性是常量。
+	被final修饰的方法不能被重写。
+	被final修饰的类不能被继承。
+
+static：静态的
+	被static修饰的属性和方法被该类的所有实例共享。
+	被static修饰的属性和方法通过类名可以直接调用。	
+
+
+2、请写出public、protected、private、默认四种修饰符的作用范围
+
+public：可以被所有的类访问。
+
+protected  和  默认  ：可以被同一个包中的类访问。
+
+private：只能被这个类本身访问。
+
+5、请写出8种基本数据类型以及它们所占的字节数 
+
+数据类型   	字节数
+byte		1
+
+short		2
+
+int		4
+
+long		8
+
+float		4
+
+double		8
+
+char		2
+
+boolean		1

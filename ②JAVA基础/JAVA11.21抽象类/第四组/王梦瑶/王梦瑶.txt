@@ -1,0 +1,9 @@
+1、请写出final、static的作用？
+final的作用：被final修饰的属性是常量，
+	     被final修饰的方法不能重新，	
+             被final修饰的类不能被继承。	
+static的作用：被static修饰的属性和方法被该类的所以实例共享。
+2.public:可以被所有的类访问。
+  protected.默认：可以被同一个包中的类访问。
+  private:只能被这个类本身访问，其他类都不能访问。
+5.byte 1个字节 short 2个字节 int 4个字节 long 8个字节 folat 4个字节 double 8个字节 char 2个字节 boolean  1个字节
