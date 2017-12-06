@@ -1,7 +1,0 @@
-2、请写出public、protected、private、默认四种修饰符的作用范围
-
-public可以被所有的类访问
-
-protected默认的可以被同一个包中的类访问
-
-private只能被这个类本身访问其他类都不能访问
