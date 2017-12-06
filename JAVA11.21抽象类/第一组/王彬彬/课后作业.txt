@@ -1,8 +1,0 @@
-1、请写出final、static的作用？
-  
-
-2、请写出public、protected、private、默认四种修饰符的作用范围
-3、创建抽象类Person，并定义抽象方法getContent()放回字符串，额外定义say方法调用getContent（）方法并输出；
-子类Sudent、Workder继承Person类；并实现抽象类的方法getContent；实例化对象并分别调用say（）方法 。
-4、请输出0~10000之间以3开头的数
-5、请写出8种基本数据类型以及它们所占的字节数 
