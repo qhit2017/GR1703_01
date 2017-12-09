@@ -1,0 +1,11 @@
+1 独立完成java基础试卷2的项目
+扩展题：
+1 重写String类的length方法
+2 重写String类的charAt方法
+3 重写String类的toUpperCase方法
+4 重写String类的toLowerCase方法
+5 重写String类的subString方法
+6 重写String类的indexOf方法
+7 重写String类的replace方法
+8 重写String类的split方法
+
