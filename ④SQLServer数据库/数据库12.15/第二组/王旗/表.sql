@@ -1,0 +1,23 @@
+select*from exam;
+insert into exam(name,no,subject,score) values ('小明','21125415','语文','99') ;
+insert into exam(name,no,subject,score) values ('小明','1414144141','数学','99');
+insert into exam (name,no,score)values('小明','253522','99');
+insert into exam(name ,subject)values('小明','英语');
+insert into exam(no,subject,score)values('32234241','政治','99');
+insert into exam(name,no,subject,score)values('小明','23523523','历史','99');
+insert into exam(name,no,subject)values('小明','3252352','');
+insert into exam(no,score)values('32452352','99');
+insert into exam(name,subject,score)values('小明','','99');
+insert into exam(name,no,subject,score)values('','2356445','','99');
+insert into exam(name,no,subject,score)values('小明','3455445','','99');
+insert into exam(name,no,subject,score)values('','7856445','','99');
+insert into exam(name,no,subject,score)values('小明','2456445','','99');
+insert into exam(name,no,subject,score)values('','4566445','','99');
+insert into exam(name,no,subject,score)values('小明','1256445','','99');
+insert into exam(name,no,subject,score)values('','78756445','','99');
+insert into exam(name,no,subject,score)values('小明','12356445','','99');
+insert into exam(name,no,subject,score)values('','2356445','','99');
+insert into exam(name,no,subject,score)values('','4554445','','99');
+insert into exam(name,no,subject,score)values('小明','6756445','','99');
+
+insert into exam select*from exam;

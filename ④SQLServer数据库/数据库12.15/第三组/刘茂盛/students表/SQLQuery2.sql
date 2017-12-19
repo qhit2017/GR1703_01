@@ -1,0 +1,24 @@
+select *from students;
+
+insert into students values(1,'ÁÎÎ°Á¼',18,'2017-09-08');
+insert into students(sId,sname,age,enrollmentdate)values(2,'Íõ¶¨Óî',17,'2017-09-08');
+insert into students values(3,'ºúö©ÔÂ',17,'2017-09-08');
+insert into students values(4,'ÁõãôöÎ',17,'2017-09-08');
+insert into students values(5,'Íõ±ò±ò',18,'2017-09-08');
+insert into students values(6,'´ŞÒ«Íş',17,'2017-09-08');
+insert into students values(7,'ÍõÆì',18,'2017-09-08');
+insert into students values(8,'ÀîÖ¾ĞÂ',17,'2017-09-08');
+insert into students values(9,'ÍõÎÄµÏ',18,'2017-09-08');
+insert into students values(10,'ÌïËÉµ¤',17,'2017-09-08');
+insert into students values(11,'ÑîÁôÑó',18,'2017-09-08');
+insert into students values(12,'Ô¬Èğ³¬',18,'2017-09-08');
+insert into students values(13,'ÁõÃ¯Ê¢',18,'2017-09-08');
+insert into students values(14,'ĞÏÎÄÕÜ',17,'2017-09-08');
+insert into students values(15,'Ğ»Ã÷Ñô',18,'2017-09-08');
+insert into students values(16,'ÍõÒøĞÇ',18,'2017-09-08');
+insert into students values(17,'ÀîÃÎËÉ',18,'2017-09-08');
+insert into students values(18,'ÅÓĞÇ³½',17,'2017-09-08');
+insert into students values(19,'ÍõÃÎÑş',17,'2017-09-08');
+insert into students values(20,'Íò¿¡»Ô',18,'2017-09-08');
+insert into students values(21,'Ğì¹ã»Û',18,'2017-09-08');
+insert into students values(22,'¹¢¿¡Óî',18,'2017-09-08');
