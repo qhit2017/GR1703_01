@@ -1,0 +1,11 @@
+INSERT INTO course VALUES ('1','数据库',4);
+INSERT INTO course VALUES ('2','数学',3);
+INSERT INTO course VALUES ('3','信息系统',2);
+INSERT INTO course VALUES ('4','数学',3);
+INSERT INTO course VALUES ('5','操作系统',2);
+INSERT INTO course VALUES ('6','数据库',3);
+INSERT INTO course VALUES ('7','数学',4);
+INSERT INTO course VALUES ('8','操作系统',3);
+INSERT INTO course VALUES ('9','信息系统',2);
+INSERT INTO course VALUES ('10','数据库',1);
+INSERT INTO course VALUES ('11','信息系统',3);
