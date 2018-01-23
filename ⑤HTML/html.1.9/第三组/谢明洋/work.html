@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表格</title>
+	<style type="text/css">
+		tr{height: 30px}
+	</style>
+</head>
+<body style="font-family:粗体" >
+<table border="1" cellspacing="1" width="600px" >
+	<tr style="height: 50px">
+		<td colspan="2" style="text-align:center; "><b>拍拍用户注册</b></td>
+	</tr>
+	<tr>
+		<td>真实姓名:</td>
+		<td>
+			<textarea rows="1"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>用户性别：</td>
+		<td>
+			<input type="radio" name="sex" value="男">&nbsp;男<input type="radio" name="sex" value="女">女
+		</td>
+	</tr>
+	<tr>
+		<td>密码:</td>
+		<td>
+			<textarea rows="1"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td>密码保护问题:</td>
+		<td>
+			<select>
+				<option>你的出生年月</option>
+				<option>父亲的名字</option>
+				<option>母亲的名字</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td>请选择关注商品的类别:</td>
+		<td>
+			<input type="checkbox" name="things" value="数码产品">&nbsp;数码产品
+			<input type="checkbox" name="things" value="运动系列">&nbsp;运动系列
+			<input type="checkbox" name="things" value="家居用品">&nbsp;家居用品
+			<input type="checkbox" name="things" value="音像制品">&nbsp;音像制品
+		</td>
+	</tr>
+	<tr style="height: 50px">
+		<td colspan="2" style="text-align: center;">
+			<input type="submit" name="submit" value="提交">&nbsp;
+		<input type="reset" name="reset" value="清空"><br/>
+		<font face="幼圆" color="red">
+			<small>
+				点击提交，即表示同意下面的《拍拍协议》。	
+			</small>
+		</font>		
+		</td>	
+	</tr>
+	<tr style="height: 100px">
+		<td  style="text-align:center; ">拍拍协议</td>
+		<td>
+			<textarea rows="6" style="width:85%">&nbsp;&nbsp;此处省略100字······</textarea >
+		</td>
+	</tr>
+</table>
+</body>
+</html>
