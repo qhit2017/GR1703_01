@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>单表查询</title>
+</head>
+<body>
+<b>①selsect语句基本查询</b><br/>1.select&nbsp;&nbsp;&nbsp;字段&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名;<br/>
+2.别名:select&nbsp;&nbsp;&nbsp;列名&nbsp;&nbsp;&nbsp;as&nbsp;&nbsp;&nbsp;值;<br/>
+3.过滤:select&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名&nbsp;&nbsp;&nbsp;where&nbsp;&nbsp;&nbsp;字段;<br/>
+<b>②模糊查询</b><br/>
+select&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;表名&nbsp;&nbsp;&nbsp;where&nbsp;&nbsp;&nbsp;字段&nbsp;&nbsp;&nbsp;like&nbsp;&nbsp;&nbsp;'%某';(以某结尾)；<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'某%';(以某开头);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'%某%';(包含某);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'某_';
+(下划线表示字符个数.);<br/>
+<b>③排序</b><br/>
+select&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名&nbsp;&nbsp;&nbsp;order&nbsp;&nbsp;&nbsp;by&nbsp;&nbsp;&nbsp;字段;(默认升序);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;order;&nbsp;&nbsp;&nbsp;by;&nbsp;&nbsp;&nbsp;DESC(降序);<br/>
+<b>④去重复</b><br/>
+select&nbsp;&nbsp;&nbsp;distinct&nbsp;&nbsp;&nbsp;字段&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名;<br/>
+<b>⑤连接符</b><br/>
+与Java类似;<br/>
+<b>⑥在...之间</b><br/>
+between&nbsp;&nbsp;&nbsp;值&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;值;/not&nbsp;&nbsp;&nbsp;between&nbsp;&nbsp;&nbsp;值&nbsp;&nbsp;&nbsp;and&nbsp;&nbsp;&nbsp;值;<br/>
+<b>⑦in与not int</b><br/>
+<b>⑧判断是否为空</b><br/>
+select&nbsp;&nbsp;&nbsp;*&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;null&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;not&nbsp;&nbsp;&nbsp;null;<br/>
+<b>⑨TOP(返回制定行数)</b><br/>
+select&nbsp;&nbsp;&nbsp;top&nbsp;&nbsp;&nbsp;行数&nbsp;&nbsp;&nbsp;返回字段&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名;<br/>
+<b>⑩聚合函数的过滤:having</b><br/>
+select&nbsp;&nbsp;&nbsp;列名&nbsp;&nbsp;&nbsp;from&nbsp;&nbsp;&nbsp;表名&nbsp;&nbsp;&nbsp;group&nbsp;&nbsp;&nbsp;by(分组)&nbsp;&nbsp;&nbsp;having&nbsp;&nbsp;&nbsp;过滤内容;
+</body>
+</html>

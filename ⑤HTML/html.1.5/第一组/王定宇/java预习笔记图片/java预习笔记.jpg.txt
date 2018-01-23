@@ -1,0 +1,6 @@
+图片:
+1.java的保留关键词有哪些?
+public,static,void,class,interface,out,return,if,else,for,switch
+
+2.java关系运算符有哪些？
+> < >= <= == !=
